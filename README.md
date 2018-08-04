@@ -183,9 +183,9 @@ After executing the above code you will be able to see a window popping which in
 
 You can also include classifiers for "eyes detection" or even "smile detection". On those cases, you will include the classifier function and rectangle draw inside the face loop, because would be no sense to detect an eye or a smile outside of a face.
 
-> [* .FaceEyeDetection.py](FaceEyeDetection.py)
-> [* .FaceSmileDetection.py](FaceSmileDetection.py)
-> [* .FaceEyeSmileDetection.py](FaceEyeSmileDetection.py)
+> [* FaceEyeDetection.py](FaceEyeDetection.py)  
+> [* FaceSmileDetection.py](FaceSmileDetection.py)  
+> [* FaceEyeSmileDetection.py](FaceEyeSmileDetection.py)  
 
 **Step 4: Data Gathering**
 > Let's start the first phase of our project. What we will do here, is starting from Face Detecting, we will simply create a dataset, where we will store for each id, a group of photos in gray with the portion that was used for face detecting.
