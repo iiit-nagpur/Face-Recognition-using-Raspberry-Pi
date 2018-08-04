@@ -35,7 +35,7 @@ A small project which does face detection using OpenCV library on RaspberryPi.
 
 ## 2] Project Structure :
 1. Face Detection and Data Gathering.
-2. Train the Sysytem.
+2. Train the System.
 3. Face Recognition.
 <a name="procedure"></a>
 ## 3] Procedure :
