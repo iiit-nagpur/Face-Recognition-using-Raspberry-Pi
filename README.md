@@ -1,4 +1,4 @@
-# Face-Recognition-using-Raspberry-Pi
+# Introduction to OpenCV
 ## Description 
 A small project which does face detection using OpenCV library on RaspberryPi.
 ## Content
@@ -394,6 +394,6 @@ Thankyou :heart:
 
 ## Credits
 [Kunal Yelne](https://github.com/kunalyelne)  
-3rd Year,CSE Department.  
+2020 Batch  
 [Indian Institute of Information Technology Nagpur.](https://github.com/iiit-nagpur)
   
