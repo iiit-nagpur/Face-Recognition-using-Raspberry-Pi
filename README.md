@@ -241,8 +241,8 @@ And for each one of the captured frames, we should save it as a file on a "datas
 Note that for saving the above file, you must have imported the library "os". Each file's name will follow the structure:
 `User.face_id.count.jpg`  
 
-For example, for a user with a face_id = 1, the 4th sample file on dataset/ directory will be something like:  
-`User.1.4.jpg`
+For example, for a user with a face_id = 3, the 8th sample file on dataset/ directory will be something like:  
+`User.3.8.jpg`
 
 In code, you guys can see the there's a `count` variable which counts no. of images captured. It is set to `30` , the more you capture the more accuratly system will work.
 
