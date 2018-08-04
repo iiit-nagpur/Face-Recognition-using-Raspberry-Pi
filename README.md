@@ -10,14 +10,14 @@ A small project which does face detection using OpenCV library on RaspberryPi.
    * [Procedure](#procedure)
 <a name="rpi"> </a>   
 ## What's Raspberry pi?
-> Raspberry pi is a mini computer(credit card sized), which is capable of doing various tasks but with less computation power as it doesn't have powerful resources. The Raspberry Pi is slower than a modern laptop or desktop but is still a complete Linux computer and can provide all the expected abilities that implies, at a low-power consumption level.  
+> Raspberry pi is a mini computer(credit card sized), which is capable of doing various tasks but with less computation power as it doesn't have powerful resources. 
 [Explore more](https://www.raspberrypi.org/)
 <a name="facerecognition"> </a>
 ## what is Face Recognition?
 > Face Recognition/Facial Recognition is a category of biometric software which identifies people by their faces. Face is captured by digital camera and the system is trained and then it is capable of identifying the person.
 <a name="opencv"></a>
 ## OpenCV Library
-> OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. It has C++, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android.  
+> OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. 
 [Read more](https://opencv.org)
 ## Project
 > In this project we will learn how to detect real-time faces on Picam.
@@ -319,7 +319,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 id = 0
 
 # names related to ids: example ==> KUNAL: id=1,  etc
-names = ['None', 'Kunal', 'Kaushik', 'Atharv', 'Z', 'W']
+names = ['None', 'Kunal', 'Kaushik', 'Tushar', 'X', 'Y' , 'Z']
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
@@ -364,7 +364,7 @@ while True:
         break
 
 # Do a bit of cleanup
-print("\n [INFO] Exiting Program and cleanup stuff")
+print("\n Exiting Program")
 cam.release()
 cv2.destroyAllWindows()
 ```
@@ -385,9 +385,6 @@ The `recognizer.predict ()`, will take as a parameter a captured portion of the 
 <div style="align:center">
   <img src ="/images/result.jpg"/>
 </div>
-
-## Conclusion:
-> I hope this project can help others find their way into the exciting world of IoT!
 
 For more projects, follow me on github [Kunal Yelne](https://github.com/kunalyelne):+1:  
 Thankyou :heart:
